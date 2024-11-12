@@ -64,7 +64,9 @@ document.addEventListener('DOMContentLoaded', function() {
       if(entry.target.classList.contains("sec2_3") && entry.isIntersecting) {
         document.querySelector(".book-wrap").style.opacity = "1";
      }
-
+     if(entry.target.classList.contains("sec3_1") && entry.isIntersecting) {
+      document.querySelector(".text_box").style.animation = "right_show .5s ease-in-out forwards";
+   }
       if(entry.target.classList.contains("sec4_1") && entry.isIntersecting) {
         document.querySelector(".sec4_1 .unity").style.animation = "show .5s ease-in-out forwards";
         document.querySelector(".sec4_1 .meta").style.animation = "show .5s ease-in-out forwards";
