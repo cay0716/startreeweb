@@ -354,7 +354,7 @@ p {
     width: 1.5rem;
     height: 1.5rem;
     border-radius: 50%;
-    background: #254760;
+    background: #343639;
     margin-right: 10px;
 }
 #sec2 .sec2_1 .content_box p {
@@ -368,8 +368,7 @@ p {
     align-items: center;
 }
 #sec2 .sec2_1 .graph_box .graph {
-    background: #254760;
-    background: linear-gradient(to right, #0A1523, #254760);
+    background: #343639;
     margin-bottom: 8px;
     height: 8vw;
     max-height: 57px;
