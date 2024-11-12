@@ -725,6 +725,8 @@ p {
     width: 12vw;
     height: 12vw;
     margin-bottom: 10px;
+    min-width: 70px;
+    min-height: 70px;
 }
 #sec6 .team .img_box.one {
     background: url("img/Team_suheun.png");
