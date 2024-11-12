@@ -517,6 +517,7 @@ p {
     width: 35%;
     right: 1vw;
     top: 20vw;
+    opacity: 0;
 }
 #sec3 .sec3_1 .text_box h2 {
     margin-bottom: 40px;
