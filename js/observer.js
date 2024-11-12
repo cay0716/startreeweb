@@ -23,6 +23,12 @@ document.addEventListener('DOMContentLoaded', function() {
             document.querySelector("#sec1 p").classList.add('show');
           }, 3000)
         } 
+
+        
+        if(entry.target.classList.contains("sec2_2") && entry.isIntersecting) {
+          document.querySelector(".sec2_2_1.one").style.animation = "left_show .5s ease-in-out forwards";
+          document.querySelector(".sec2_2_1.two").style.animation = "right_show .5s ease-in-out forwards";
+      }
       });
     }, specificObserverOptions);
 
@@ -49,10 +55,6 @@ document.addEventListener('DOMContentLoaded', function() {
           });
         }
 
-        if(entry.target.classList.contains("sec2_2") && entry.isIntersecting) {
-            document.querySelector(".sec2_2_1.one").style.animation = "left_show .5s ease-in-out forwards";
-            document.querySelector(".sec2_2_1.two").style.animation = "right_show .5s ease-in-out forwards";
-        }
 
         if(entry.target.classList.contains("sec2_3_0") && entry.isIntersecting) {
          document.querySelector(".sec2_3_0").style.opacity = "1";
@@ -77,6 +79,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     // sec1을 specificObserver에 추가
     document.querySelector("#sec1") && specificObserver.observe(document.querySelector("#sec1"));
+    document.querySelector(".sec2_2") && specificObserver.observe(document.querySelector(".sec2_2"));
 
     // 다른 섹션을 observer에 추가
     sections.forEach(section => {
