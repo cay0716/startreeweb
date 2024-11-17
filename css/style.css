@@ -592,6 +592,8 @@ p {
     left: calc(50% + 7vw); 
     top: calc(50% + 35vw); 
     
+    min-width: 150px;
+    max-width: 400px;
     /* animation: alternate forwards grass 3s ease-in-out; */
 }
 
@@ -611,6 +613,8 @@ p {
     width: 20vw;
     right: calc(50% + 7vw); 
     top: calc(50% + 35vw); 
+    min-width: 150px;
+    max-width: 400px;
     /* animation: alternate forwards bi 3s ease-in-out; */
 }
 
@@ -631,6 +635,8 @@ p {
     left: calc(50% + 5vw);
     top: calc(50% + 38vw); 
     /* animation: alternate forwards girl 3s ease-in-out; */
+    min-width: 60px;
+    max-width: 300px;
 }
 @keyframes girl {
     10% {
