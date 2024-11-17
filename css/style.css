@@ -1067,7 +1067,7 @@ footer .footer_back {
         flex-direction: column;
     }
     #sec2 .sec2_1 .graph_box .graph p {
-        font-size: xx-small;
+        font-size: 8px;
     }
     #sec2 .sec2_2  .sec2_2_1 .explain_box ul {
         font-size: small;
@@ -1081,7 +1081,18 @@ footer .footer_back {
     .sec2_3_0 h6 {
         font-size: x-small;
     }
-    
+    #sec3 .sec3_1 .img_box img {
+        top: calc(50% + 70vw); 
+    }
+    #sec3 .sec3_1 .img_box .girl {
+        top: calc(50% + 70vw); 
+    }
+    #sec3 .sec3_1 .img_box .grass {
+        top: calc(50% + 70vw); 
+    }
+    #sec3 .sec3_1 .img_box .bi {
+        top: calc(50% + 70vw); 
+    }
     #sec3 .sec3_1 .text_box {
         width: 100%;
         top: calc(50% - 38vw); 
