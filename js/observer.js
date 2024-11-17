@@ -67,7 +67,46 @@ document.addEventListener('DOMContentLoaded', function() {
         document.querySelector(".book-wrap").style.opacity = "1";
      }
      if(entry.target.classList.contains("sec3_1") && entry.isIntersecting) {
-      document.querySelector(".text_box").style.animation = "right_show .5s ease-in-out forwards";
+      // document.querySelector(".text_box").style.animation = "right_show .5s ease-in-out forwards";
+      let main = document.querySelector(".main_house");
+      let house1 = document.querySelector(".house.right");
+      let house2 = document.querySelector(".house.left");
+      let girl = document.querySelector(".girl");
+      let bi = document.querySelector(".bi");
+      let grass = document.querySelector(".grass");
+
+      house1.style.top = 'calc(50% - 18vw)';
+      setTimeout(() => {
+        house2.style.top = 'calc(50% - 18vw)';
+        setTimeout(() => {
+          main.style.top = 'calc(50% - 15vw)';
+          setTimeout(() => {
+            grass.style.top = 'calc(50% + 13vw)';
+            setTimeout(() => {
+              bi.style.top = 'calc(50% + 10vw)';
+              setTimeout(() => {
+                girl.style.top = 'calc(50% + 4vw)';
+                setTimeout(() => {
+                  document.querySelector("#sec3 .sec3_1 .img_box").style.animation = 'forwards sec3_img_box 3s ease';
+                  house1.style.animation = 'alternate forwards house_right 3s ease-in-out';
+                  house2.style.animation = 'alternate forwards house_left 3s ease-in-out';
+                  girl.style.animation = 'alternate forwards girl 3s ease-in-out';
+                  bi.style.animation = 'alternate forwards bi 3s ease-in-out';
+                  grass.style.animation = 'alternate forwards grass 3s ease-in-out';
+  
+                  setTimeout(() => {
+                    document.querySelector("#sec3 .sec3_1 .text_box").style.opacity = '1';
+                  }, 3500)
+              }, 1200)
+
+             
+              }, 200)
+
+            }, 200)
+          }, 200);
+        }, 500);
+      }, 500);
+
    }
       if(entry.target.classList.contains("sec4_1") && entry.isIntersecting) {
         document.querySelector(".sec4_1 .unity").style.animation = "show .5s ease-in-out forwards";
