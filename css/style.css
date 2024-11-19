@@ -682,7 +682,7 @@ p {
     background: #0A1523;
     position: absolute;
     bottom: 0;
-    max-height: 400px;
+    max-height: 900px;
     filter: blur(1px);
 }
 
