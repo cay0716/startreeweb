@@ -187,6 +187,7 @@ p {
 }
 
 .tree_backback {
+    padding-top: 10vw;
     width: 100%;
     transition: all 1s;
 }
@@ -1054,14 +1055,19 @@ p {
 }
 
 footer {
+    position: relative;
     height: 60vh;
     background: linear-gradient(#215696, #8CACD3);
+    overflow: hidden;
 }
 footer .footer_back {
     position: absolute;
+    bottom: 0;
     width: 100%;
 }  
-
+.footer_wrap {
+    overflow: hidden;
+}
 
 @media only screen and (max-width:768px) {
     #sec1_h1 {
