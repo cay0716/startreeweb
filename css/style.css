@@ -86,10 +86,11 @@ header nav ul {
     right: 0;
     
     font-family: 'Pretendard-Regular';
+    font-size: large;
     font-weight: 800;
     list-style: none;
     display: flex;
-    gap: 2.5vw;
+    gap: 2.3vw;
 }
 header ul li {
     opacity: 0.6;
@@ -540,6 +541,10 @@ p {
     overflow: hidden;
     background: #1A2E3D;
     background-attachment: fixed;
+}
+#sec3 .sec3_1 h3 {
+    font-weight: normal;
+    opacity: .8;
 }
 /* #sec3 .sec3_1 img {
     width: 140%;
@@ -1132,6 +1137,12 @@ footer .footer_back {
     #sec3 .sec3_1 .ground {
         height: 70vw;
     }
+    #sec4 .sec4_1 {
+        height: 60vh;
+    }
+    #sec4 .sec4_2 {
+        height: 60vh;
+    }
     .sec4_2 .content_box ul li {
         font-size: xx-small;
     }
@@ -1139,8 +1150,14 @@ footer .footer_back {
         font-size: 18px;
         font-weight: bold;
     }
+    #sec5{
+        height: 50vh;
+    }
     #sec5 iframe {
         transform: scale(0.9);
+    }
+    #sec6 {
+        height: 70vh;
     }
     footer {
         height: 20vh;
