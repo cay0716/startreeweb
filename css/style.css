@@ -84,7 +84,6 @@ header nav .logo_box img {
 
 header nav ul {
     right: 0;
-    
     font-family: 'Pretendard-Regular';
     font-size: large;
     font-weight: 800;
@@ -420,18 +419,20 @@ p {
 	border-radius: 1.5em;
     margin-bottom: 10px;
 
-    width: 60%;
+    width: 70%;
     padding: 1vw 2vw;
 
-    max-width: 600px;
-}
-#sec2 .sec2_2 .talk_box h3 {
-    font-weight: lighter;
+    max-width: 700px;
 }
 #sec2 .sec2_2  .sec2_2_1  {
     opacity: 0;
-}#sec2 .sec2_2  .sec2_2_1.two {
+}
+#sec2 .sec2_2  .sec2_2_1.one {
+    left: 0;
+}
+#sec2 .sec2_2  .sec2_2_1.two {
     margin-top: 50px;
+    right: 0;
 }
 #sec2 .sec2_2  .sec2_2_1 .explain_box  {
     width: 45rem;
@@ -451,7 +452,7 @@ p {
     font-weight: lighter;
 }
 #sec2 .sec2_2  .sec2_2_1 .explain_box ul {
-    font-size: medium;
+    font-size: 18px;
     margin-top: 10px;
 }
 #sec2 .sec2_2  .sec2_2_1 .explain_box li {
@@ -1057,6 +1058,7 @@ footer {
     background: linear-gradient(#215696, #8CACD3);
 }
 footer .footer_back {
+    position: absolute;
     width: 100%;
 }  
 
@@ -1084,7 +1086,7 @@ footer .footer_back {
     header {
         right: 0;
     }
-    header ul {
+    header nav ul {
         font-size: x-small;
     }
     header nav .logo_box img {
