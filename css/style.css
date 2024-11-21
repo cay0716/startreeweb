@@ -1056,7 +1056,7 @@ p {
 
 footer {
     position: relative;
-    height: 60vh;
+    height: 100vh;
     background: linear-gradient(#215696, #8CACD3);
     overflow: hidden;
 }
