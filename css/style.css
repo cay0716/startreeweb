@@ -354,6 +354,9 @@ p {
     background-image: url("img/planning_background02.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+	
+    display: flex;
+    flex-direction: column;
 }
 
 #sec2 .sec2_1 {
