@@ -1120,6 +1120,9 @@ footer .footer_back {
     #sec2 .sec2_2 .talk_box, .explain_box {
         width: 100%;
     }
+    #sec2 .sec2_2 .sec2_2_1  {
+        width: 100%;
+    }
     #sec2 .sec2_2 .sec2_2_1.two {
         margin-left: 0;
     }
@@ -1165,7 +1168,7 @@ footer .footer_back {
         height: 50vh;
     }
     #sec5 iframe {
-        transform: scale(0.9);
+        transform: scale(0.7);
     }
     #sec6 {
         height: 70vh;
