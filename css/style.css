@@ -1114,6 +1114,8 @@ footer .footer_back {
     #sec2 .sec2_1 .graph_box .graph p {
         font-size: 8px;
     }
+#sec2 .sec2_2  .sec2_2_1 {
+	width:100%;
     #sec2 .sec2_2  .sec2_2_1 .explain_box ul {
         font-size: small;
     }
